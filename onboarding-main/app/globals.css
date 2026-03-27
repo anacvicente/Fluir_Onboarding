@@ -1,0 +1,10 @@
+@import "../styles/tokens.css";
+@import "tailwindcss";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--background);
+  color: var(--text-primary);
+}
